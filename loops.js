@@ -9,3 +9,7 @@ function forLoop(a) {
   }
   return a;
 }
+
+function whileLoop(n) {
+  
+}
