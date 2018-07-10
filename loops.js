@@ -11,5 +11,6 @@ function forLoop(a) {
 }
 
 function whileLoop(n) {
-  
+  console.log(--n)
+  return 'done'
 }
