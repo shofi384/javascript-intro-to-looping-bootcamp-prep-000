@@ -18,5 +18,12 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
-  
+  do {
+    delete array[--array.length]
+  } while(array.length>0 && mayBeTrue());
+  return array
+}
+
+function mayBeTrue() {
+  return Math.random() >= 0.5
 }
